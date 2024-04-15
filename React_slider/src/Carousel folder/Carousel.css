@@ -1,0 +1,36 @@
+.carousel {
+  position: relative;
+}
+
+.slides {
+}
+
+.pagination {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  z-index: 100;
+}
+
+.dot {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid white;
+  background-color: gray;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #333;
+  border: 1px solid white;
+}
+img {
+  height: 40%;
+  width: 50%;
+  border: 2px solid white;
+}
